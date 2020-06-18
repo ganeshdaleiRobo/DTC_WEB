@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>24EF7ED2-3698-4EBB-B9FC-5AB9F3515A33</title>
+    <defs>
+        <path d="M6.71345455,0.0617463807 C6.615,-0.0205821269 6.47590909,-0.0205821269 6.37745455,0.0617463807 L0.104727273,5.29818856 C0.0387272727,5.35317121 0,5.43753611 0,5.52713745 L0,14.2545411 C0,14.4154162 0.121909091,14.5454545 0.272727273,14.5454545 L5.31818182,14.5454545 L5.31818182,11.4480498 L7.77272727,11.4480498 L7.77272727,14.5454545 L12.8181818,14.5454545 C12.969,14.5454545 13.0909091,14.4154162 13.0909091,14.2545411 L13.0909091,5.52713745 C13.0909091,5.43753611 13.0521818,5.35317121 12.9861818,5.29818856 L6.71345455,0.0617463807 Z" id="path-1"></path>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home---Nav-(unregistered-user)" transform="translate(-255.000000, -23.000000)">
+            <g id="Navigation/Global/Unregistered" transform="translate(56.000000, 18.000000)">
+                <g id="Icon-Container/sm-(32x32)" transform="translate(198.000000, 5.000000)">
+                    <g id="Icon/Nav/Home-B" transform="translate(0.800000, 0.200000)">
+                        <g id="Home-Fill" transform="translate(9.454545, 8.727273)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <path stroke="#FFFFFF" stroke-width="1.8" d="M0.9,5.9411281 L0.9,13.6454545 L4.41818182,13.6454545 L4.41818182,10.5480498 L8.67272727,10.5480498 L8.67272727,13.6454545 L12.1909091,13.6454545 L12.1909091,5.80667889 L6.5508749,1.09840581 L0.9,5.9411281 Z"></path>
+                            <g id="Color/Neutral-10-(FFFFFF)" mask="url(#mask-2)" fill="#FFFFFF">
+                                <g transform="translate(-7.854545, -7.272727)" id="Rectangle">
+                                    <rect x="0" y="0" width="28.8" height="29.0909091"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+ul{
+    list-style: none;
+    display: grid;
+    background: transparent;
+    border: none;
+    color: #8c8585;
+    cursor: pointer;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+
+}
+
+ul li:hover{
+text-decoration: underline;
+font-weight: bold;
+color: white;
+}

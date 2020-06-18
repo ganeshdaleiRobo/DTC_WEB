@@ -1,0 +1,41 @@
+.menu-render{
+    display: grid;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+.menu{
+    display: grid;
+    grid-template-columns: 30px 59px;
+    grid-column-gap: 5px;
+   justify-content: center;
+   align-items: center;
+    
+}
+.menu-img{
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+
+}
+.menu-span{
+cursor: pointer;
+font-weight: bold;
+}
+.circle{
+    background-color: #898d9c;
+    border-radius: 30px;
+    
+    cursor: pointer;
+}
+.circle:hover{
+    background-color: #474c58;
+    border-radius: 30px;
+   
+    cursor: pointer;
+}

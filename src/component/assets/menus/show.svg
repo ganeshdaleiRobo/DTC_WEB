@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>D1DEB9F2-2C10-4EA0-A51D-191DEE69145B</title>
+    <defs>
+        <path d="M3.27272727,8.57416268 L3.27272727,11.4832536 L0,11.4832536 L0,8.57416268 L3.27272727,8.57416268 Z M7.63636364,8.57416268 L7.63636364,11.4832536 L4.36363636,11.4832536 L4.36363636,8.57416268 L7.63636364,8.57416268 Z M12,8.57454545 L12,11.4836364 L8.72727273,11.4836364 L8.72727273,8.57454545 L12,8.57454545 Z M3.27272727,4.36363636 L3.27272727,7.27272727 L0,7.27272727 L0,4.36363636 L3.27272727,4.36363636 Z M12,4.36363636 L12,7.27272727 L8.72727273,7.27272727 L8.72727273,4.36363636 L12,4.36363636 Z M7.63636364,4.28708134 L7.63636364,7.19617225 L4.36363636,7.19617225 L4.36363636,4.28708134 L7.63636364,4.28708134 Z M3.27272727,0 L3.27272727,2.90909091 L0,2.90909091 L0,0 L3.27272727,0 Z M7.63636364,0 L7.63636364,2.90909091 L4.36363636,2.90909091 L4.36363636,0 L7.63636364,0 Z M12,0 L12,2.90909091 L8.72727273,2.90909091 L8.72727273,0 L12,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home---Nav-(unregistered-user)" transform="translate(-499.000000, -23.000000)">
+            <g id="Navigation/Global/Unregistered" transform="translate(56.000000, 18.000000)">
+                <g id="Icon-Container/sm-(32x32)" transform="translate(442.000000, 5.000000)">
+                    <g id="Icon/Nav/Browse" transform="translate(0.800000, 0.200000)">
+                        <g id="Browse" transform="translate(10.181818, 10.181818)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+                            <g id="Color/Neutral-10-(FFFFFF)" mask="url(#mask-2)" fill="#FFFFFF">
+                                <g transform="translate(-10.181818, -10.181818)" id="Rectangle">
+                                    <rect x="0" y="0" width="32" height="32"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
