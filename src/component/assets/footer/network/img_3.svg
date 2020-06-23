@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="106px" height="106px" viewBox="0 0 106 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>B727B169-C567-4A14-B1C0-DA08D568F10E</title>
+    <defs>
+        <polygon id="path-1" points="0 0 57.2 0 57.2 32.9557471 0 32.9557471"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Navigation/Network-Selector/Nav" transform="translate(-407.000000, 1.000000)">
+            <g id="Navigation/Network-Selector/default" transform="translate(408.000000, 0.000000)">
+                <circle id="Oval" stroke-opacity="0.2" stroke="#FFFFFF" cx="52" cy="52" r="52"></circle>
+                <g id="Network-Logo/Centered/White/ID" opacity="0.5" transform="translate(8.000000, 30.000000)" fill-rule="evenodd">
+                    <g id="ID" transform="translate(15.400000, 5.544000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M18.1085667,0 L18.1085667,17.1384397 L18.1085667,26.4432989 L46.5618593,32.9557471 C53.8193741,30.3500264 57.2,24.1855373 57.2,17.1384397 C57.2,7.79465345 51.2575556,0 38.2122481,0 L18.1085667,0 Z M31.3850574,17.1384397 L31.3850574,9.38032985 L36.9165093,9.38032985 C41.5335556,9.38032985 43.1944741,13.2404509 43.2749778,17.1384397 C43.1944741,21.0364284 41.5335556,24.8965495 36.9165093,24.8965495 L31.3850574,24.8965495 L31.3850574,17.1384397 Z M0,0 L0,17.1384397 L0,22.298773 L13.2764907,25.3369269 L13.2764907,17.1384397 L13.2764907,0 L0,0 Z" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

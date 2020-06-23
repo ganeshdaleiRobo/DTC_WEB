@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode-development --open --hot",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "cosmos": "cosmos",
+    "cosmos:export": "cosmos-export"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,9 @@
   "homepage": "https://github.com/ganeshdaleiRobo/dtc-web#readme",
   "dependencies": {
     "@babel/preset-react": "^7.10.1",
+    "@types/react-dom": "^16.9.8",
+    "cross-spawn": "^7.0.3",
+    "prettier": "^2.0.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-responsive-carousel": "^3.2.8",
@@ -28,6 +33,8 @@
   "devDependencies": {
     "@babel/core": "^7.10.2",
     "@babel/preset-env": "^7.10.2",
+    "@types/react": "^16.9.38",
+    "awesome-typescript-loader": "^5.2.1",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.1.0",
     "babel-preset-env": "^1.7.0",
@@ -35,8 +42,10 @@
     "css-loader": "^3.6.0",
     "file-loader": "^6.0.0",
     "html-webpack-plugin": "^4.3.0",
+    "react-cosmos": "^5.4.0",
     "sass": "^1.26.8",
     "sass-loader": "^8.0.2",
+    "typescript": "^3.9.5",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0"

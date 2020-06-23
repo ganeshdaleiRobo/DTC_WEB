@@ -2,11 +2,13 @@ const path = require('path');
 const HtmlwebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-entry:'./src/index.js',
+entry:'./src/index.tsx',
+
 output:{
     path:path.join(__dirname, '/dist'),
     filename:'index_bundle.js'
 },
+
 module:{
     rules:[
         {
@@ -14,6 +16,9 @@ module:{
             exclude:/node_modules/,
             use:"babel-loader",
         },
+        { test: /\.(ts|tsx)$/, loader: 'awesome-typescript-loader' },
+        
+    
         {
             test: /\.css$/i,
             use: ['style-loader', 'css-loader'],
@@ -37,5 +42,9 @@ plugins:[
             template: './src/index.html'
         })
     
-]
+],
+resolve: {
+    // we also need to add *.tsx here
+    extensions: ['.js', '.jsx', '.ts', '.tsx'],
+  }
 }

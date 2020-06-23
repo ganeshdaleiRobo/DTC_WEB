@@ -1,0 +1,15 @@
+.Standard-Episode {
+    /*
+    width: 285px;
+    height: 216px;
+    */
+    object-fit: contain;
+}
+.bitmap-img-containt{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.bitmap-img-containt * {
+    margin-top: 5px;
+}

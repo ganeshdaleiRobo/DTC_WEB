@@ -1,0 +1,17 @@
+.reel-wapper{
+    display: grid;
+    grid-template-rows: 30px 1fr;
+
+}
+.reel-title{
+    font-weight: bold;
+    font-size: 20px;
+    color: #8080808f;
+}
+.reel-inner{
+    display: grid;
+    grid-template-rows: 216px;
+    grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
+    grid-gap: 1em;
+    height: auto;
+}

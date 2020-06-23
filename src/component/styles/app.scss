@@ -2,11 +2,16 @@
 .dtc-wapper{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to bottom, #363b46, #15171c);
+   /* background-image: linear-gradient(to bottom, #363b46, #15171c); */
 }
 .dtc-wapper-inner{
     margin: auto;
     padding-top: 25px;
     width: 95%;
+    
+}
+.reels-data{
+    display: grid;
+    grid-template-rows: 350px 1fr;
     
 }

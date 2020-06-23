@@ -1,0 +1,9 @@
+.footer-network{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #222222;
+}
+.footer-network *{
+    margin-left: 20px;
+}

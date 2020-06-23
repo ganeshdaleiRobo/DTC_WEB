@@ -1,20 +1,32 @@
-import React from 'react';
-import MenuList from '../../atoms/menus/MenuList';
-import iconHome from '../../assets/menus/Home.png';
-import iconPlus from '../../assets/menus/plus.png';
-import iconShow from '../../assets/menus/show.png';
-import iconSearch from '../../assets/menus/search.png';
-class NavMenu extends React.Component{
-    render(){
-        return(
-            <MenuList>
-                <menu name="home" type="button" icon={iconHome} isbackground={true}/>
-                <menu name="My Stuff" type="button" icon={iconPlus} isbackground={false}/>
-                <menu name="Shows" type="button" icon={iconShow} isbackground={false}/>
-                <menu name="Search" type="input" icon={iconSearch} isbackground={false}/>
-                
-                </MenuList>
-        )
-    }
-}
+import React, { useState, useEffect } from "react";
+import iconHome from "../../assets/menus/Home.png";
+import iconPlus from "../../assets/menus/plus.png";
+import iconShow from "../../assets/menus/show.png";
+import iconSearch from "../../assets/menus/search.png";
+import Menu from "../menu/Menu";
+import "./nav-menu.scss";
+
+const NavMenu = () => {
+  const [menuList, setMenuList] = useState({
+    Menu: [
+      { name: "Home", iconImg: iconHome, iconBg: true },
+      { name: "My Stuff", iconImg: iconPlus, iconBg: false },
+      { name: "Shows", iconImg: iconShow, iconBg: false },
+      { name: "Search", iconImg: iconSearch, iconBg: false },
+    ],
+  });
+  return (
+    <div className="menu-render">
+      {menuList.Menu.map((value) => {
+        return (
+          <Menu
+            iconBg={value.iconBg}
+            iconImg={value.iconImg}
+            name={value.name}
+          />
+        );
+      })}
+    </div>
+  );
+};
 export default NavMenu;
